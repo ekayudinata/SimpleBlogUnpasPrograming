@@ -1,0 +1,91 @@
+/* 
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  } */
+  
+  /* .form-signin .checkbox {
+    font-weight: 400;
+  } */
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .form-registration input{
+    border-radius: 0;
+    margin-bottom: -1px;
+
+  }
+  .bg-blackwithopacity{
+    background-color: rgba(0, 0, 0,0.7);
+  }
+
+
+.carousel-control-prev, .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: #5b575737;
+  border-radius: 50%;
+  top: calc(80%);
+  opacity: 0.8;
+}
+
+.carousel-control-next{
+  right: 5%;
+}
+.carousel-control-prev{
+
+  left: 5%;
+}
+
+.h-welcome{
+  height: 250px;
+}
+.mt-6{
+  margin-top: 6rem;
+}
+.mt-7{
+  margin-top: 7rem ;
+}
+.mt-10{
+  margin-top: 10rem;
+}
+.avatar{
+  transition: transform .2s; 
+}
+.avatar:hover{
+  transform: scale(1.5);
+}
+/* .carousel-control-next{
+  right: 5%;
+} */
+
+/* .carousel-control-next-icon {
+  background-image: url("../img/nexticon.svg");
+} */
+
+.zoom {
+
+  transition: transform .3s; /* Animation */
+ 
+}
+
+.zoom:hover {
+  z-index: 2;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

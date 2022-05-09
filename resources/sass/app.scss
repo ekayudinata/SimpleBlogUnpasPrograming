@@ -1,0 +1,36 @@
+
+
+$black:rgba(0,0,0,0.7);
+
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap//scss/variables";
+@import "~bootstrap//scss/mixins";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$custom-colors: (
+  "custom-color": #900
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+
+
+// $custom-colors: (
+//   "blackdengantransparant": #80000000
+// );
+
+// // Merge the maps
+// $theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
